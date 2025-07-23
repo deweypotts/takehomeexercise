@@ -1,0 +1,7 @@
+openai
+faiss-cpu
+langchain
+langchain-community
+pandas
+tqdm
+python-dotenv 
