@@ -6,8 +6,8 @@ import glob
 import json
 from typing import List, Tuple
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.embeddings import OpenAIEmbeddings
-from langchain.vectorstores import FAISS
+from langchain_community.embeddings import OpenAIEmbeddings
+from langchain_community.vectorstores import FAISS
 import config
 
 def load_documents(directory: str) -> List[Tuple[str, str]]: ## loads the docs

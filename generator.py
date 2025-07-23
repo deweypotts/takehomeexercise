@@ -2,7 +2,7 @@
 Prompt construction and OpenAI generation logic for RAG pipeline.
 """
 from typing import List
-import openai
+from openai import OpenAI
 import config
 
 def construct_prompt(system_prompt: str, context: List[str], user_prompt: str) -> List[dict]:
@@ -21,10 +21,12 @@ def generate_response(prompt: List[dict], model: str = None) -> str:
     """
     if model is None:
         model = config.CHAT_MODEL
-    response = openai.ChatCompletion.create(
+    
+    client = OpenAI(api_key=config.OPENAI_API_KEY)
+    response = client.chat.completions.create(
         model=model,
         messages=prompt,
         temperature=0.2,
         max_tokens=512
     )
-    return response.choices[0].message["content"].strip() 
+    return response.choices[0].message.content.strip() 
