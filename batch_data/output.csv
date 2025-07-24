@@ -1,0 +1,202 @@
+user_prompt,result_truth,result_ai,retrieved_sources,retrieved_text
+What types of leave are available to employees?,,"Employees have access to several types of leave, including paid time off (PTO), sick leave, family and medical leave, and holidays.
+Source: Attendance and Leave Policy",docs\company_policy_full.txt; docs\company_policy_full.txt; docs\company_policy_full.txt; docs\company_policy_full.txt,"[1] Attendance and Leave
+Regular attendance is essential for team collaboration and productivity. Employees are expected to adhere to their scheduled hours. Leave policies include paid time off (PTO), sick leave, family and medical leave, and holidays. Requests for time off should be submitted in advance through the designated HR system.
+
+[2] Remote Work Policy
+Employees approved for remote work must maintain productivity standards, adhere to core working hours, and remain accessible during scheduled times. Remote employees must ensure that their home working environment is secure and free from distractions, and they must use company-approved tools and systems for communication and data storage.
+
+[3] Disciplinary Action and Termination
+Violations of company policy may result in disciplinary actions including verbal or written warnings, suspension, or termination. Gross misconduct, such as theft, violence, or serious breach of confidentiality, may result in immediate termination. Employees exiting the company must return all company property and complete the offboarding process.
+
+[4] Workplace Safety
+The safety of our employees is paramount. All employees must comply with safety protocols, including proper use of equipment, adherence to emergency procedures, and prompt reporting of hazards. The company will provide training and maintain facilities in compliance with local, state, and federal safety regulations."
+What types of harassment are prohibited in the workplace?,,"Verbal, physical, or visual harassment of any kind is prohibited in the workplace. This includes harassment based on race, gender, age, religion, disability, sexual orientation, or any other protected characteristic.
+Source: Anti-Harassment and Discrimination policy",docs\company_policy_full.txt; docs\company_policy_full.txt; docs\company_policy_full.txt; docs\company_policy_full.txt,"[1] Anti-Harassment and Discrimination
+We are committed to a workplace free from harassment and discrimination based on race, gender, age, religion, disability, sexual orientation, or any other protected characteristic. Harassment of any kind—verbal, physical, or visual—will not be tolerated. Complaints will be taken seriously and investigated promptly, with corrective action taken as necessary.
+
+[2] Disciplinary Action and Termination
+Violations of company policy may result in disciplinary actions including verbal or written warnings, suspension, or termination. Gross misconduct, such as theft, violence, or serious breach of confidentiality, may result in immediate termination. Employees exiting the company must return all company property and complete the offboarding process.
+
+[3] Code of Conduct
+Employees must adhere to the highest standards of ethical behavior and professionalism. This includes treating all colleagues, clients, and stakeholders with respect, maintaining honesty in all communications, and avoiding any behavior that could damage the company’s reputation. Conflicts of interest must be disclosed, and employees are prohibited from engaging in any form of workplace harassment or discrimination.
+
+[4] Confidentiality and Privacy
+Employees must protect confidential information regarding clients, partners, and internal operations. This includes non-public business strategies, customer data, financial records, and intellectual property. Disclosure of such information without proper authorization may result in disciplinary action and potential legal liability."
+What tools must remote employees use for communication and data handling?,,"Remote employees must use company-approved tools and systems for communication and data storage.
+Source: Remote Work Policy",docs\company_policy_full.txt; docs\company_policy_full.txt; docs\company_policy_full.txt; docs\company_policy_full.txt,"[1] Remote Work Policy
+Employees approved for remote work must maintain productivity standards, adhere to core working hours, and remain accessible during scheduled times. Remote employees must ensure that their home working environment is secure and free from distractions, and they must use company-approved tools and systems for communication and data storage.
+
+[2] IT and Data Security
+All employees must comply with our IT usage guidelines, including using company-issued hardware, securing passwords, enabling multi-factor authentication, and avoiding unauthorized software installations. Sensitive data must be encrypted and stored in approved systems only. Any suspected data breach or cyber incident must be reported to IT immediately.
+
+[3] Attendance and Leave
+Regular attendance is essential for team collaboration and productivity. Employees are expected to adhere to their scheduled hours. Leave policies include paid time off (PTO), sick leave, family and medical leave, and holidays. Requests for time off should be submitted in advance through the designated HR system.
+
+[4] Confidentiality and Privacy
+Employees must protect confidential information regarding clients, partners, and internal operations. This includes non-public business strategies, customer data, financial records, and intellectual property. Disclosure of such information without proper authorization may result in disciplinary action and potential legal liability."
+What steps does the company take if a harassment complaint is filed?,,"Complaints of harassment are taken seriously and investigated promptly by the company. Corrective action will be taken as necessary based on the outcome of the investigation. This may include disciplinary actions such as verbal or written warnings, suspension, or termination, depending on the severity of the situation.*Source:* Anti-Harassment and Discrimination Policy",docs\company_policy_full.txt; docs\company_policy_full.txt; docs\company_policy_full.txt; docs\company_policy_full.txt,"[1] Anti-Harassment and Discrimination
+We are committed to a workplace free from harassment and discrimination based on race, gender, age, religion, disability, sexual orientation, or any other protected characteristic. Harassment of any kind—verbal, physical, or visual—will not be tolerated. Complaints will be taken seriously and investigated promptly, with corrective action taken as necessary.
+
+[2] Disciplinary Action and Termination
+Violations of company policy may result in disciplinary actions including verbal or written warnings, suspension, or termination. Gross misconduct, such as theft, violence, or serious breach of confidentiality, may result in immediate termination. Employees exiting the company must return all company property and complete the offboarding process.
+
+[3] Code of Conduct
+Employees must adhere to the highest standards of ethical behavior and professionalism. This includes treating all colleagues, clients, and stakeholders with respect, maintaining honesty in all communications, and avoiding any behavior that could damage the company’s reputation. Conflicts of interest must be disclosed, and employees are prohibited from engaging in any form of workplace harassment or discrimination.
+
+[4] IT and Data Security
+All employees must comply with our IT usage guidelines, including using company-issued hardware, securing passwords, enabling multi-factor authentication, and avoiding unauthorized software installations. Sensitive data must be encrypted and stored in approved systems only. Any suspected data breach or cyber incident must be reported to IT immediately."
+What standards of behavior are expected from employees at [Company Name]?,,"Employees at [Company Name] are expected to adhere to the highest standards of ethical behavior and professionalism. This includes treating all colleagues, clients, and stakeholders with respect, maintaining honesty in all communications, and avoiding any behavior that could damage the company’s reputation. Conflicts of interest must be disclosed, and employees are prohibited from engaging in any form of workplace harassment or discrimination.
+
+Source: Code of Conduct",docs\company_policy_full.txt; docs\company_policy_full.txt; docs\company_policy_full.txt; docs\company_policy_full.txt,"[1] Code of Conduct
+Employees must adhere to the highest standards of ethical behavior and professionalism. This includes treating all colleagues, clients, and stakeholders with respect, maintaining honesty in all communications, and avoiding any behavior that could damage the company’s reputation. Conflicts of interest must be disclosed, and employees are prohibited from engaging in any form of workplace harassment or discrimination.
+
+[2] Introduction
+Welcome to [Company Name]. This policy manual outlines our organizational principles, operational guidelines, and employee responsibilities. Our goal is to foster a professional, inclusive, and efficient workplace that supports the success of both the individual and the company. Employees are expected to familiarize themselves with these policies and to uphold the values of integrity, accountability, and collaboration in their daily activities.
+
+[3] Disciplinary Action and Termination
+Violations of company policy may result in disciplinary actions including verbal or written warnings, suspension, or termination. Gross misconduct, such as theft, violence, or serious breach of confidentiality, may result in immediate termination. Employees exiting the company must return all company property and complete the offboarding process.
+
+[4] Workplace Safety
+The safety of our employees is paramount. All employees must comply with safety protocols, including proper use of equipment, adherence to emergency procedures, and prompt reporting of hazards. The company will provide training and maintain facilities in compliance with local, state, and federal safety regulations."
+What should an employee do if they suspect a data breach?,,"An employee who suspects a data breach must report it to the IT department immediately.
+Source: IT and Data Security Policy",docs\company_policy_full.txt; docs\company_policy_full.txt; docs\company_policy_full.txt; docs\company_policy_full.txt,"[1] IT and Data Security
+All employees must comply with our IT usage guidelines, including using company-issued hardware, securing passwords, enabling multi-factor authentication, and avoiding unauthorized software installations. Sensitive data must be encrypted and stored in approved systems only. Any suspected data breach or cyber incident must be reported to IT immediately.
+
+[2] Confidentiality and Privacy
+Employees must protect confidential information regarding clients, partners, and internal operations. This includes non-public business strategies, customer data, financial records, and intellectual property. Disclosure of such information without proper authorization may result in disciplinary action and potential legal liability.
+
+[3] Disciplinary Action and Termination
+Violations of company policy may result in disciplinary actions including verbal or written warnings, suspension, or termination. Gross misconduct, such as theft, violence, or serious breach of confidentiality, may result in immediate termination. Employees exiting the company must return all company property and complete the offboarding process.
+
+[4] Remote Work Policy
+Employees approved for remote work must maintain productivity standards, adhere to core working hours, and remain accessible during scheduled times. Remote employees must ensure that their home working environment is secure and free from distractions, and they must use company-approved tools and systems for communication and data storage."
+What safety protocols must employees follow in the workplace?,,"Employees must comply with safety protocols, including proper use of equipment, adherence to emergency procedures, and prompt reporting of hazards. The company will provide training and maintain facilities in compliance with local, state, and federal safety regulations.
+Source: Workplace Safety Policy",docs\company_policy_full.txt; docs\company_policy_full.txt; docs\company_policy_full.txt; docs\company_policy_full.txt,"[1] Workplace Safety
+The safety of our employees is paramount. All employees must comply with safety protocols, including proper use of equipment, adherence to emergency procedures, and prompt reporting of hazards. The company will provide training and maintain facilities in compliance with local, state, and federal safety regulations.
+
+[2] IT and Data Security
+All employees must comply with our IT usage guidelines, including using company-issued hardware, securing passwords, enabling multi-factor authentication, and avoiding unauthorized software installations. Sensitive data must be encrypted and stored in approved systems only. Any suspected data breach or cyber incident must be reported to IT immediately.
+
+[3] Remote Work Policy
+Employees approved for remote work must maintain productivity standards, adhere to core working hours, and remain accessible during scheduled times. Remote employees must ensure that their home working environment is secure and free from distractions, and they must use company-approved tools and systems for communication and data storage.
+
+[4] Code of Conduct
+Employees must adhere to the highest standards of ethical behavior and professionalism. This includes treating all colleagues, clients, and stakeholders with respect, maintaining honesty in all communications, and avoiding any behavior that could damage the company’s reputation. Conflicts of interest must be disclosed, and employees are prohibited from engaging in any form of workplace harassment or discrimination."
+What kinds of information are considered confidential at [Company Name]?,,"Confidential information at [Company Name] includes non-public business strategies, customer data, financial records, and intellectual property. Disclosure of such information without proper authorization may result in disciplinary action and potential legal liability.
+Source: Confidentiality and Privacy section of the policy manual",docs\company_policy_full.txt; docs\company_policy_full.txt; docs\company_policy_full.txt; docs\company_policy_full.txt,"[1] Confidentiality and Privacy
+Employees must protect confidential information regarding clients, partners, and internal operations. This includes non-public business strategies, customer data, financial records, and intellectual property. Disclosure of such information without proper authorization may result in disciplinary action and potential legal liability.
+
+[2] IT and Data Security
+All employees must comply with our IT usage guidelines, including using company-issued hardware, securing passwords, enabling multi-factor authentication, and avoiding unauthorized software installations. Sensitive data must be encrypted and stored in approved systems only. Any suspected data breach or cyber incident must be reported to IT immediately.
+
+[3] Disciplinary Action and Termination
+Violations of company policy may result in disciplinary actions including verbal or written warnings, suspension, or termination. Gross misconduct, such as theft, violence, or serious breach of confidentiality, may result in immediate termination. Employees exiting the company must return all company property and complete the offboarding process.
+
+[4] Introduction
+Welcome to [Company Name]. This policy manual outlines our organizational principles, operational guidelines, and employee responsibilities. Our goal is to foster a professional, inclusive, and efficient workplace that supports the success of both the individual and the company. Employees are expected to familiarize themselves with these policies and to uphold the values of integrity, accountability, and collaboration in their daily activities."
+What IT practices are employees required to follow?,,"Employees must comply with IT usage guidelines, which include using company-issued hardware, securing passwords, enabling multi-factor authentication, and avoiding unauthorized software installations. Sensitive data must be encrypted and stored in approved systems only. Any suspected data breach or cyber incident must be reported to IT immediately.
+Source: IT and Data Security Policy",docs\company_policy_full.txt; docs\company_policy_full.txt; docs\company_policy_full.txt; docs\company_policy_full.txt,"[1] IT and Data Security
+All employees must comply with our IT usage guidelines, including using company-issued hardware, securing passwords, enabling multi-factor authentication, and avoiding unauthorized software installations. Sensitive data must be encrypted and stored in approved systems only. Any suspected data breach or cyber incident must be reported to IT immediately.
+
+[2] Remote Work Policy
+Employees approved for remote work must maintain productivity standards, adhere to core working hours, and remain accessible during scheduled times. Remote employees must ensure that their home working environment is secure and free from distractions, and they must use company-approved tools and systems for communication and data storage.
+
+[3] Confidentiality and Privacy
+Employees must protect confidential information regarding clients, partners, and internal operations. This includes non-public business strategies, customer data, financial records, and intellectual property. Disclosure of such information without proper authorization may result in disciplinary action and potential legal liability.
+
+[4] Attendance and Leave
+Regular attendance is essential for team collaboration and productivity. Employees are expected to adhere to their scheduled hours. Leave policies include paid time off (PTO), sick leave, family and medical leave, and holidays. Requests for time off should be submitted in advance through the designated HR system."
+What areas are evaluated during a performance review?,,"Managers evaluate work quality, initiative, teamwork, and adherence to company values during a performance review.
+Source: Performance Review Policy",docs\company_policy_full.txt; docs\company_policy_full.txt; docs\company_policy_full.txt; docs\company_policy_full.txt,"[1] Performance Review
+Performance reviews are conducted biannually to assess employee progress, set goals, and provide feedback. Managers will evaluate work quality, initiative, teamwork, and adherence to company values. Constructive feedback is intended to help employees grow in their roles and align with the organization’s strategic objectives.
+
+[2] Attendance and Leave
+Regular attendance is essential for team collaboration and productivity. Employees are expected to adhere to their scheduled hours. Leave policies include paid time off (PTO), sick leave, family and medical leave, and holidays. Requests for time off should be submitted in advance through the designated HR system.
+
+[3] Disciplinary Action and Termination
+Violations of company policy may result in disciplinary actions including verbal or written warnings, suspension, or termination. Gross misconduct, such as theft, violence, or serious breach of confidentiality, may result in immediate termination. Employees exiting the company must return all company property and complete the offboarding process.
+
+[4] Remote Work Policy
+Employees approved for remote work must maintain productivity standards, adhere to core working hours, and remain accessible during scheduled times. Remote employees must ensure that their home working environment is secure and free from distractions, and they must use company-approved tools and systems for communication and data storage."
+What are the expectations for employees who work remotely?,,"Employees approved for remote work must maintain productivity standards, adhere to core working hours, and remain accessible during scheduled times. Remote employees must ensure that their home working environment is secure and free from distractions, and they must use company-approved tools and systems for communication and data storage.
+Source: Remote Work Policy",docs\company_policy_full.txt; docs\company_policy_full.txt; docs\company_policy_full.txt; docs\company_policy_full.txt,"[1] Remote Work Policy
+Employees approved for remote work must maintain productivity standards, adhere to core working hours, and remain accessible during scheduled times. Remote employees must ensure that their home working environment is secure and free from distractions, and they must use company-approved tools and systems for communication and data storage.
+
+[2] Attendance and Leave
+Regular attendance is essential for team collaboration and productivity. Employees are expected to adhere to their scheduled hours. Leave policies include paid time off (PTO), sick leave, family and medical leave, and holidays. Requests for time off should be submitted in advance through the designated HR system.
+
+[3] Workplace Safety
+The safety of our employees is paramount. All employees must comply with safety protocols, including proper use of equipment, adherence to emergency procedures, and prompt reporting of hazards. The company will provide training and maintain facilities in compliance with local, state, and federal safety regulations.
+
+[4] IT and Data Security
+All employees must comply with our IT usage guidelines, including using company-issued hardware, securing passwords, enabling multi-factor authentication, and avoiding unauthorized software installations. Sensitive data must be encrypted and stored in approved systems only. Any suspected data breach or cyber incident must be reported to IT immediately."
+What actions can result in disciplinary action or termination?,,"Violations of company policy, including gross misconduct such as theft, violence, or serious breach of confidentiality, may result in disciplinary actions including verbal or written warnings, suspension, or termination. Gross misconduct can lead to immediate termination. 
+Source: Disciplinary Action and Termination Policy",docs\company_policy_full.txt; docs\company_policy_full.txt; docs\company_policy_full.txt; docs\company_policy_full.txt,"[1] Disciplinary Action and Termination
+Violations of company policy may result in disciplinary actions including verbal or written warnings, suspension, or termination. Gross misconduct, such as theft, violence, or serious breach of confidentiality, may result in immediate termination. Employees exiting the company must return all company property and complete the offboarding process.
+
+[2] Anti-Harassment and Discrimination
+We are committed to a workplace free from harassment and discrimination based on race, gender, age, religion, disability, sexual orientation, or any other protected characteristic. Harassment of any kind—verbal, physical, or visual—will not be tolerated. Complaints will be taken seriously and investigated promptly, with corrective action taken as necessary.
+
+[3] Confidentiality and Privacy
+Employees must protect confidential information regarding clients, partners, and internal operations. This includes non-public business strategies, customer data, financial records, and intellectual property. Disclosure of such information without proper authorization may result in disciplinary action and potential legal liability.
+
+[4] Code of Conduct
+Employees must adhere to the highest standards of ethical behavior and professionalism. This includes treating all colleagues, clients, and stakeholders with respect, maintaining honesty in all communications, and avoiding any behavior that could damage the company’s reputation. Conflicts of interest must be disclosed, and employees are prohibited from engaging in any form of workplace harassment or discrimination."
+How should employees request time off?,,"Employees should submit requests for time off in advance through the designated HR system.
+Source: Attendance and Leave policy",docs\company_policy_full.txt; docs\company_policy_full.txt; docs\company_policy_full.txt; docs\company_policy_full.txt,"[1] Attendance and Leave
+Regular attendance is essential for team collaboration and productivity. Employees are expected to adhere to their scheduled hours. Leave policies include paid time off (PTO), sick leave, family and medical leave, and holidays. Requests for time off should be submitted in advance through the designated HR system.
+
+[2] Remote Work Policy
+Employees approved for remote work must maintain productivity standards, adhere to core working hours, and remain accessible during scheduled times. Remote employees must ensure that their home working environment is secure and free from distractions, and they must use company-approved tools and systems for communication and data storage.
+
+[3] Disciplinary Action and Termination
+Violations of company policy may result in disciplinary actions including verbal or written warnings, suspension, or termination. Gross misconduct, such as theft, violence, or serious breach of confidentiality, may result in immediate termination. Employees exiting the company must return all company property and complete the offboarding process.
+
+[4] Workplace Safety
+The safety of our employees is paramount. All employees must comply with safety protocols, including proper use of equipment, adherence to emergency procedures, and prompt reporting of hazards. The company will provide training and maintain facilities in compliance with local, state, and federal safety regulations."
+How should employees handle potential conflicts of interest?,,Employees should disclose conflicts of interest to their supervisor or HR representative as soon as they become aware of them. It is important to be transparent about any situations that may present a conflict between personal interests and the company's interests. Failure to disclose conflicts of interest may result in disciplinary action.*Source:* Code of Conduct,docs\company_policy_full.txt; docs\company_policy_full.txt; docs\company_policy_full.txt; docs\company_policy_full.txt,"[1] Code of Conduct
+Employees must adhere to the highest standards of ethical behavior and professionalism. This includes treating all colleagues, clients, and stakeholders with respect, maintaining honesty in all communications, and avoiding any behavior that could damage the company’s reputation. Conflicts of interest must be disclosed, and employees are prohibited from engaging in any form of workplace harassment or discrimination.
+
+[2] Confidentiality and Privacy
+Employees must protect confidential information regarding clients, partners, and internal operations. This includes non-public business strategies, customer data, financial records, and intellectual property. Disclosure of such information without proper authorization may result in disciplinary action and potential legal liability.
+
+[3] Disciplinary Action and Termination
+Violations of company policy may result in disciplinary actions including verbal or written warnings, suspension, or termination. Gross misconduct, such as theft, violence, or serious breach of confidentiality, may result in immediate termination. Employees exiting the company must return all company property and complete the offboarding process.
+
+[4] IT and Data Security
+All employees must comply with our IT usage guidelines, including using company-issued hardware, securing passwords, enabling multi-factor authentication, and avoiding unauthorized software installations. Sensitive data must be encrypted and stored in approved systems only. Any suspected data breach or cyber incident must be reported to IT immediately."
+How often are performance reviews conducted?,,"Performance reviews are conducted biannually to assess employee progress, set goals, and provide feedback.
+Source: Performance Review Policy",docs\company_policy_full.txt; docs\company_policy_full.txt; docs\company_policy_full.txt; docs\company_policy_full.txt,"[1] Performance Review
+Performance reviews are conducted biannually to assess employee progress, set goals, and provide feedback. Managers will evaluate work quality, initiative, teamwork, and adherence to company values. Constructive feedback is intended to help employees grow in their roles and align with the organization’s strategic objectives.
+
+[2] Attendance and Leave
+Regular attendance is essential for team collaboration and productivity. Employees are expected to adhere to their scheduled hours. Leave policies include paid time off (PTO), sick leave, family and medical leave, and holidays. Requests for time off should be submitted in advance through the designated HR system.
+
+[3] Disciplinary Action and Termination
+Violations of company policy may result in disciplinary actions including verbal or written warnings, suspension, or termination. Gross misconduct, such as theft, violence, or serious breach of confidentiality, may result in immediate termination. Employees exiting the company must return all company property and complete the offboarding process.
+
+[4] Remote Work Policy
+Employees approved for remote work must maintain productivity standards, adhere to core working hours, and remain accessible during scheduled times. Remote employees must ensure that their home working environment is secure and free from distractions, and they must use company-approved tools and systems for communication and data storage."
+Why is the sun red?,,I could not find an answer in the knowledgebase. Please reach out to #HR with your question or Contact Patrick directly via Slack.,docs\company_policy_full.txt; docs\company_policy_full.txt; docs\company_policy_full.txt; docs\company_policy_full.txt,"[1] Anti-Harassment and Discrimination
+We are committed to a workplace free from harassment and discrimination based on race, gender, age, religion, disability, sexual orientation, or any other protected characteristic. Harassment of any kind—verbal, physical, or visual—will not be tolerated. Complaints will be taken seriously and investigated promptly, with corrective action taken as necessary.
+
+[2] IT and Data Security
+All employees must comply with our IT usage guidelines, including using company-issued hardware, securing passwords, enabling multi-factor authentication, and avoiding unauthorized software installations. Sensitive data must be encrypted and stored in approved systems only. Any suspected data breach or cyber incident must be reported to IT immediately.
+
+[3] Attendance and Leave
+Regular attendance is essential for team collaboration and productivity. Employees are expected to adhere to their scheduled hours. Leave policies include paid time off (PTO), sick leave, family and medical leave, and holidays. Requests for time off should be submitted in advance through the designated HR system.
+
+[4] Workplace Safety
+The safety of our employees is paramount. All employees must comply with safety protocols, including proper use of equipment, adherence to emergency procedures, and prompt reporting of hazards. The company will provide training and maintain facilities in compliance with local, state, and federal safety regulations."
+Do bears have 3 legs,,I could not find an answer in the knowledgebase. Please reach out to #HR with your question or Contact Patrick directly via Slack.,docs\company_policy_full.txt; docs\company_policy_full.txt; docs\company_policy_full.txt; docs\company_policy_full.txt,"[1] Attendance and Leave
+Regular attendance is essential for team collaboration and productivity. Employees are expected to adhere to their scheduled hours. Leave policies include paid time off (PTO), sick leave, family and medical leave, and holidays. Requests for time off should be submitted in advance through the designated HR system.
+
+[2] IT and Data Security
+All employees must comply with our IT usage guidelines, including using company-issued hardware, securing passwords, enabling multi-factor authentication, and avoiding unauthorized software installations. Sensitive data must be encrypted and stored in approved systems only. Any suspected data breach or cyber incident must be reported to IT immediately.
+
+[3] Disciplinary Action and Termination
+Violations of company policy may result in disciplinary actions including verbal or written warnings, suspension, or termination. Gross misconduct, such as theft, violence, or serious breach of confidentiality, may result in immediate termination. Employees exiting the company must return all company property and complete the offboarding process.
+
+[4] Anti-Harassment and Discrimination
+We are committed to a workplace free from harassment and discrimination based on race, gender, age, religion, disability, sexual orientation, or any other protected characteristic. Harassment of any kind—verbal, physical, or visual—will not be tolerated. Complaints will be taken seriously and investigated promptly, with corrective action taken as necessary."

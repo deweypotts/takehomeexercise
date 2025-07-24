@@ -12,7 +12,7 @@ def batch_evaluate_csv(vectorstore, csv_path: str, output_csv: str = None):
     """
     Loads a CSV with columns: user_prompt, result_truth.
     For each row, generates a result and prints it.
-    Saves a new CSV with columns: user_prompt, result_truth, result_ai.
+    Saves a new CSV with columns: user_prompt, result_truth, result_ai, retrieved_sources, retrieved_text.
     The output file name is the input CSV name with 'ai_result' appended before the extension if output_csv is not provided.
     """
     df = pd.read_csv(csv_path)
@@ -20,11 +20,26 @@ def batch_evaluate_csv(vectorstore, csv_path: str, output_csv: str = None):
     for idx, row in tqdm(df.iterrows(), total=len(df)):
         user_prompt = row["user_prompt"]
         result_truth = row["result_truth"]
-        context = retrieve_context(vectorstore, user_prompt)
+        
+        # Get context and metadata
+        context, metadata = retrieve_context(vectorstore, user_prompt, return_metadata=True)
         prompt = construct_prompt(config.SYSTEM_PROMPT, context, user_prompt)
         result_ai = generate_response(prompt)
-        print(f"\nPrompt: {user_prompt}\n---\nRetrieved Context:\n{context}\n---\nAI Result:\n{result_ai}\n")
-        outputs.append({"user_prompt": user_prompt, "result_truth": result_truth, "result_ai": result_ai})
+        
+        # Format sources and text for CSV
+        sources = [meta.get('source', 'Unknown') for meta in metadata] if metadata else []
+        sources_str = '; '.join(sources)
+        context_str = '\n\n'.join([f"[{i+1}] {ctx}" for i, ctx in enumerate(context)])
+        
+        print(f"\nPrompt: {user_prompt}\n---\nRetrieved Context:\n{context_str}\n---\nAI Result:\n{result_ai}\n")
+        outputs.append({
+            "user_prompt": user_prompt, 
+            "result_truth": result_truth, 
+            "result_ai": result_ai,
+            "retrieved_sources": sources_str,
+            "retrieved_text": context_str
+        })
+    
     out_df = pd.DataFrame(outputs)
     if not output_csv:
         base, ext = os.path.splitext(csv_path)

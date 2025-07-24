@@ -5,7 +5,6 @@ import os
 import glob
 import json
 from typing import List, Tuple
-from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.embeddings import OpenAIEmbeddings
 from langchain_community.vectorstores import FAISS
 import config
@@ -32,14 +31,49 @@ def load_documents(directory: str) -> List[Tuple[str, str]]: ## loads the docs
 
 def split_documents(docs: List[Tuple[str, str]]) -> List[dict]: ## puts the loaded docs into chunks (chunk size configured in the config.py file)
     """
-    Splits documents into chunks using LangChain's RecursiveCharacterTextSplitter.
+    Splits documents into chunks that respect paragraph boundaries while maintaining character limits.
+    Each paragraph becomes its own chunk unless it exceeds the character limit.
     Returns a list of dicts: {"source": filename, "content": chunk}
     """
-    splitter = RecursiveCharacterTextSplitter(chunk_size=config.CHUNK_SIZE, chunk_overlap=config.CHUNK_OVERLAP)
     chunks = []
+    
     for filename, text in docs:
-        for chunk in splitter.split_text(text):
-            chunks.append({"source": filename, "content": chunk})
+        # Split text into paragraphs (double newlines)
+        paragraphs = text.split('\n\n')
+        
+        for paragraph in paragraphs:
+            paragraph = paragraph.strip()
+            if not paragraph:
+                continue
+            
+            # If paragraph is within character limit, keep it as one chunk
+            if len(paragraph) <= config.CHUNK_SIZE:
+                chunks.append({"source": filename, "content": paragraph})
+            else:
+                # If paragraph is too large, split it by sentences
+                sentences = paragraph.split('. ')
+                current_chunk = ""
+                
+                for sentence in sentences:
+                    sentence = sentence.strip()
+                    if not sentence:
+                        continue
+                    
+                    # If adding this sentence would exceed chunk size, save current chunk and start new one
+                    if len(current_chunk) + len(sentence) > config.CHUNK_SIZE and current_chunk:
+                        chunks.append({"source": filename, "content": current_chunk.strip() + "."})
+                        current_chunk = sentence
+                    else:
+                        # Add sentence to current chunk
+                        if current_chunk:
+                            current_chunk += ". " + sentence
+                        else:
+                            current_chunk = sentence
+                
+                # Add the last chunk if it has content
+                if current_chunk.strip():
+                    chunks.append({"source": filename, "content": current_chunk.strip()})
+    
     return chunks
 
 def embed_chunks(chunks: List[dict]): ## turns the chunks into vectors and adds chunk metadata
